@@ -1,5 +1,12 @@
 # SMILES-2026 Signal Interference Cancellation
 
+## Results (from results.json)
+
+| Run | ch0 (dB) | ch1 (dB) | ch2 (dB) | ch3 (dB) | Avg (dB) |
+| --- | --- | --- | --- | --- | --- |
+| Baseline | 3.98 | 4.86 | 3.49 | 3.74 | 4.02 |
+| Yours | 11.58 | 9.97 | 10.61 | 9.37 | 10.38 |
+
 Repository layout:
 
 - `task_and_baseline.py` contains the task-side logic, shared evaluation helpers, and baseline.
