@@ -156,8 +156,11 @@ These numbers are only rough guidance for the provided capture:
 Create an environment with Python 3 and install the required packages:
 
 ```bash
-pip install numpy scipy
+pip install numpy scipy gdown
 ```
+
+Note: If `challenge.mat` is missing, the script will download it via `gdown`.
+You can also place `challenge.mat` in the repository root manually.
 
 Then run:
 
